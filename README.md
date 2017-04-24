@@ -12,25 +12,12 @@ For this project we had 2 main components:
 - Website
 We created our movie database in MySQL. There were 7 tables in the database:
 
-+------------------+
-
 | Tables_in_movies |
-
-+------------------+
-
+|------------------|
 | crew             |
-
 | genre            |
-
 | movies           |
-
 | tags             |
-
 | user_rating      |
-
 | users            |
-
 | watchlist        |
-
-+------------------+
-
