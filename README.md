@@ -24,6 +24,7 @@ We created our movie database in MySQL. There were 7 tables in the database:
 | watchlist        |
 
 Each table consisted of several columns:
+
 Crew:
 
 | movie_id | position | name                   |
@@ -73,3 +74,34 @@ Movies:
 |        1 | Top Gun                  | 1986-05-16   | 109      | English  | Movie about two best friends who are Naval pilots                                                                                                                                                    |
 |        2 | Mulan                    | 1998-06-19   | 88       | English  | Girl disgraces family, but makes up for it big time                                                                                                                                                  |
 |        3 | Little Mermaid           | 1989-11-17   | 92       | English  | Mermaid wants legs to date a guy, makes huge mistake                                                    
+
+Tags:
+
+| movie_id | tag        |
+|----------|------------|
+|        1 | pilot      |
+|        1 | friends    |
+|        1 | navy       |
+|        1 | planes     |
+|        1 | war        |
+|        2 | animated   |
+|        2 | war        |
+|        2 | dragon     |
+|        2 | daughter   |
+|        2 | family     |
+|        3 | sing       |
+|        3 | love       |
+|        3 | voice      |
+|        3 | mermaid    |
+|        3 | ocean      |
+
+
+User Rating:
+
+| movie_id | user_id | rating | review                                                 |
+|----------|---------|--------|--------------------------------------------------------|
+|        2 |       3 |      3 | Great movie really spoke to me                         |
+|        2 |       2 |      1 | Not a huge fan of this movie, bad plot                 |
+|       10 |       5 |      4 | Fantastic soundtrack on this movie, great!             |
+|        8 |       3 |      2 | Cinemetography was forgetfull                          |
+
