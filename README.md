@@ -25,6 +25,7 @@ We created our movie database in MySQL. There were 7 tables in the database:
 
 Each table consisted of several columns:
 Crew:
+
 | movie_id | position | name                   |
 |----------|----------|------------------------|
 |        1 |        1 | Tony Scott             |
@@ -219,6 +220,7 @@ Crew:
 |       30 |        5 | Fred Raskin            |
 
 Genre:
+
 | movie_id | genre           |
 |----------|-----------------|
 |        1 | Drama           |
