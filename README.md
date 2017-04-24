@@ -10,6 +10,7 @@ A Movie Website made for a database class group project.
 For this project we had 2 main components:
 - Movie Database
 - Website
+
 We created our movie database in MySQL. There were 7 tables in the database:
 
 | Tables_in_movies |
