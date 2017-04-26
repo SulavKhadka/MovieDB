@@ -1,5 +1,5 @@
 # MovieDB
-A Movie Website made for a database class group project.
+A Movie Website made for a database class group project. Made using Flask-Python as the backend and Bootstrap to make the frontend.
 
 ### Contributors:
 - Sulav Khadka
